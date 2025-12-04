@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shoppingcart
+  datasource:
+    url: jdbc:mysql://localhost:3306/shopping_cart?createDatabaseIfNotExist=true
+    username: root
+    password: Palpandi@123
+  jpa:
+    show-sql: true
